@@ -129,7 +129,8 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-primary-foreground/20 mt-8 pt-8 text-center text-sm text-primary-foreground/60">
-          <p>&copy; {currentYear} Able Leadership LLC DBA The AI CEO. All rights reserved.</p>
+          <p className="mb-2">&copy; {currentYear} Able Leadership LLC DBA The AI CEO. All rights reserved.</p>
+          <p className="text-primary-foreground/70 font-medium">Proudly Veteran Owned</p>
         </div>
       </div>
     </footer>
