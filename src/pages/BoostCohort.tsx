@@ -33,13 +33,12 @@ export default function BoostCohort() {
               Unlock the Power of Expert AI Prompting
             </p>
             <p className="text-lg md:text-xl text-primary-foreground/80 mb-12 max-w-3xl mx-auto leading-relaxed">
-              Join our exclusive cohort launching Monday, April 7th at Noon EST. Experience transformative 
-              60-minute sessions designed to elevate your AI skills and maximize your productivity in 
-              today's AI-driven landscape.
+              No cohorts will take place until after the first of the year. We appreciate all our professionals 
+              who trained in the cohort this year. New sessions will be announced soon—stay tuned for 2025!
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" variant="secondary" asChild>
-                <Link href="/contact">Reserve Your Spot</Link>
+                <Link href="/contact">Stay Updated</Link>
               </Button>
               <Button size="lg" variant="outline" className="bg-transparent border-primary-foreground text-primary-foreground hover:bg-primary-foreground/10" asChild>
                 <a href="#details">
