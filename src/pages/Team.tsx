@@ -182,7 +182,7 @@ export default function Team() {
               size="lg"
               className="bg-teal-500 hover:bg-teal-600 text-white px-8 py-6 text-lg"
             >
-              <a href="https://calendly.com/rjgrimshaw/discovery-call" target="_blank" rel="noopener noreferrer">
+              <a href="https://outlook.office.com/bookwithme/user/01babf37e6da46af8c567a9f54b02c18@theaiceo.ai?anonymous&ismsaljsauthenabled&ep=plink" target="_blank" rel="noopener noreferrer">
                 Book Discovery Call
               </a>
             </Button>
