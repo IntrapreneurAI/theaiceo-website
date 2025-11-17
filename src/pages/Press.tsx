@@ -62,10 +62,10 @@ export default function Press() {
           description: "The valuable and challenging role of Intrapreneurs in a challenging economic environment."
         },
         {
-          title: "Unveiling the Power of Mentorship: A Comprehensive Guide",
+          title: "Unveiling the Power of Mentorship: A Comprehensive Insight",
           date: "January 16, 2024",
           category: "Industry Insights",
-          url: "https://www.equipmentfa.com/blogs/[blog-id]",
+          url: "https://www.equipmentfa.com/articles/37489/unveiling-the-power-of-mentorship-a-comprehensive-insight",
           description: "A unique view of the long-term benefits creating and implementing mentoring programs in any organization."
         }
       ]
