@@ -61,6 +61,13 @@ export default function Footer() {
                   </span>
                 </Link>
               </li>
+              <li>
+                <Link href="/press">
+                  <span className="text-primary-foreground/80 hover:text-primary-foreground transition-colors cursor-pointer">
+                    Press
+                  </span>
+                </Link>
+              </li>
             </ul>
           </div>
 
