@@ -1,11 +1,21 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { ExternalLink, Calendar, Tag } from "lucide-react";
+import { ExternalLink, Calendar, Tag, Newspaper } from "lucide-react";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import { Link } from "wouter";
 
 export default function Press() {
+  const pressReleases = [
+    {
+      title: "RJ Grimshaw Launches \"The AI EDGE\" A Practical Guide Where Leadership Meets Innovation",
+      date: "October 12, 2025",
+      publication: "USA Today",
+      url: "https://www.usatoday.com/press-release/story/16936/rj-grimshaw-launches-the-ai-edge-a-practical-guide-where-leadership-meets-innovation/",
+      description: "Business leader and AI strategist RJ Grimshaw announces the release of his new ebook, \"Unlocking the Power of Artificial Intelligence for Beginners to Provide an 'AI EDGE',\" published under TheAICEO.ai. The guide serves as a practical roadmap for professionals and organizations seeking to integrate AI responsibly and effectively into their operations."
+    }
+  ];
+
   const featuredArticles = [
     {
       title: "Why Most Businesses Will Fail with AI Agents (And How You Won't)",
@@ -183,7 +193,7 @@ export default function Press() {
         <div className="container">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="mb-6 text-primary-foreground">
-              Published Thought Leadership
+              Press & Media
             </h1>
             <p className="text-xl md:text-2xl text-primary-foreground/90 mb-8 leading-relaxed">
               Industry insights on AI adoption, intrapreneurship, and business transformation
@@ -196,8 +206,45 @@ export default function Press() {
         </div>
       </section>
 
+      {/* Press Releases Section */}
+      <section className="section-padding bg-gradient-to-br from-muted/50 to-muted/20">
+        <div className="container">
+          <div className="max-w-6xl mx-auto">
+            <div className="flex items-center gap-3 mb-12">
+              <Newspaper className="h-8 w-8 text-primary" />
+              <h2 className="mb-0">Press Releases</h2>
+            </div>
+            <div className="grid grid-cols-1 gap-8">
+              {pressReleases.map((release, index) => (
+                <Card key={index} className="border-2 border-primary/20 hover:border-primary transition-all hover:shadow-xl">
+                  <CardContent className="pt-8 pb-8">
+                    <div className="flex items-center gap-2 text-sm text-muted-foreground mb-4">
+                      <Calendar className="h-4 w-4" />
+                      <span>{release.date}</span>
+                    </div>
+                    <div className="inline-block bg-primary text-primary-foreground text-sm font-semibold px-4 py-2 rounded-full mb-6">
+                      {release.publication}
+                    </div>
+                    <h3 className="text-2xl md:text-3xl mb-4 leading-tight font-bold">{release.title}</h3>
+                    <p className="text-muted-foreground text-base mb-8 leading-relaxed">
+                      {release.description}
+                    </p>
+                    <Button size="lg" asChild>
+                      <a href={release.url} target="_blank" rel="noopener noreferrer">
+                        Read Full Press Release
+                        <ExternalLink className="ml-2 h-5 w-5" />
+                      </a>
+                    </Button>
+                  </CardContent>
+                </Card>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Featured Articles */}
-      <section className="section-padding bg-muted/30">
+      <section className="section-padding bg-background">
         <div className="container">
           <div className="max-w-6xl mx-auto">
             <h2 className="mb-12 text-center">Featured Articles</h2>
@@ -231,7 +278,7 @@ export default function Press() {
       </section>
 
       {/* All Articles by Year */}
-      <section className="section-padding">
+      <section className="section-padding bg-muted/30">
         <div className="container">
           <div className="max-w-6xl mx-auto">
             <h2 className="mb-12 text-center">Complete Archive</h2>
@@ -276,7 +323,7 @@ export default function Press() {
       </section>
 
       {/* CTA Section */}
-      <section className="section-padding bg-gradient-to-br from-muted to-muted/50">
+      <section className="section-padding bg-gradient-to-br from-primary/10 to-primary/5">
         <div className="container">
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="mb-6">Want Insights Like These for Your Organization?</h2>
