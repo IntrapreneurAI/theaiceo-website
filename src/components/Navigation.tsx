@@ -16,6 +16,7 @@ export default function Navigation() {
     { href: "/case-study", label: "Case Studies" },
     { href: "/blog", label: "Insights" },
     { href: "/press", label: "Press" },
+    { href: "/team", label: "Team" },
     { href: "/contact", label: "Contact" },
   ];
 

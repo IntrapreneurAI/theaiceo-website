@@ -68,6 +68,13 @@ export default function Footer() {
                   </span>
                 </Link>
               </li>
+              <li>
+                <Link href="/team">
+                  <span className="text-primary-foreground/80 hover:text-primary-foreground transition-colors cursor-pointer">
+                    Team
+                  </span>
+                </Link>
+              </li>
             </ul>
           </div>
 

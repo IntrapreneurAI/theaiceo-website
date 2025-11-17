@@ -19,6 +19,7 @@ import CaseStudy from "./pages/CaseStudy";
 import CaseStudiesIndex from "./pages/CaseStudiesIndex";
 import BoostCohort from "./pages/BoostCohort";
 import Press from "./pages/Press";
+import Team from "./pages/Team";
 
 function Router() {
   return (
@@ -29,6 +30,7 @@ function Router() {
       <Route path={"/about"} component={About} />
       <Route path={"/blog"} component={Blog} />
       <Route path={"/press"} component={Press} />
+      <Route path={"/team"} component={Team} />
       <Route path={"/case-study"} component={CaseStudiesIndex} />
       <Route path={"/case-study/nefa"} component={CaseStudy} />
       <Route path={"/case-study/fraud-detection"} component={FraudDetectionCaseStudy} />
