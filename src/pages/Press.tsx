@@ -30,7 +30,7 @@ export default function Press() {
       date: "March 10, 2025",
       category: "Technology",
       publication: "Equipment Finance Advisor",
-      url: "https://www.equipmentfa.com/articles/[article-id]",
+      url: "https://www.equipmentfa.com/articles/39468/why-most-equipment-finance-professionals-are-struggling-with-ai-and-how-to-fix-it",
       description: "Part one of a three-part series discussing why equipment finance professionals are finding difficulty using AI and provides salient advice on how to succeed using these important and required tools."
     },
     {
@@ -58,7 +58,7 @@ export default function Press() {
           title: "Navigating Economic Challenges: The Invaluable Role of Intrapreneurs",
           date: "June 11, 2024",
           category: "Industry Insights",
-          url: "https://www.equipmentfa.com/blogs/[blog-id]",
+          url: "https://www.equipmentfa.com/blogs/38151/navigating-economic-challenges-the-invaluable-role-of-intrapreneurs-in-tough-times",
           description: "The valuable and challenging role of Intrapreneurs in a challenging economic environment."
         },
         {
@@ -77,14 +77,14 @@ export default function Press() {
           title: "Why Aren't Companies Developing the Next Generation of Leaders?",
           date: "September 23, 2022",
           category: "Professional Development",
-          url: "https://www.equipmentfa.com/blogs/[blog-id]",
+          url: "https://www.equipmentfa.com/blogs/34982/why-arent-companies-developing-the-next-generation",
           description: "It is necessary to develop the next generation of leaders in order to have a sustainable business."
         },
         {
           title: "The Difference Between Mission, Vision and Values",
           date: "July 6, 2022",
           category: "Business Planning",
-          url: "https://www.equipmentfa.com/blogs/[blog-id]",
+          url: "https://www.equipmentfa.com/blogs/34545/the-difference-between-mission-vision-and-values",
           description: "The importance of a Mission Statement and a Vision Statement to companies."
         }
       ]
@@ -96,7 +96,7 @@ export default function Press() {
           title: "The War on Talent: Why Your Company Needs Intrapreneurs",
           date: "November 3, 2021",
           category: "Industry Insights",
-          url: "https://www.equipmentfa.com/blogs/[blog-id]",
+          url: "https://www.equipmentfa.com/blogs/33222/the-war-on-talent-why-your-company-needs-intrapreneurs-and-how-to-get-them",
           description: "Intrapreneurship is the best way to keep talented team members and promote creativity."
         }
       ]
@@ -108,14 +108,14 @@ export default function Press() {
           title: "The Amazing Stamina of Social Media",
           date: "October 17, 2019",
           category: "Marketing",
-          url: "https://www.equipmentfa.com/blogs/[blog-id]",
+          url: "https://www.equipmentfa.com/articles/19937/the-amazing-stamina-of-social-media",
           description: "Social media is neither dead nor dying. It remains vibrant, growing and a key way for businesses to grow."
         },
         {
           title: "How to Spot a Digital Leading Company",
           date: "May 8, 2019",
           category: "Business Planning",
-          url: "https://www.equipmentfa.com/blogs/[blog-id]",
+          url: "https://www.equipmentfa.com/articles/9317/how-to-spot-a-digital-leading-company",
           description: "What digital transformation is, why it is important for all business and what steps companies should take to embrace it."
         }
       ]
@@ -127,14 +127,14 @@ export default function Press() {
           title: "Are You Being Held Hostage?",
           date: "October 24, 2018",
           category: "Business Planning",
-          url: "https://www.equipmentfa.com/blogs/[blog-id]",
+          url: "https://www.equipmentfa.com/articles/8639/are-you-being-held-hostage",
           description: "Why resisting change toward digital lending technologies can leave equipment finance companies in peril."
         },
         {
           title: "The Cost of NOT Including \"Intrapreneurs\" in Your Company",
           date: "June 4, 2018",
           category: "Professional Development",
-          url: "https://www.equipmentfa.com/blogs/[blog-id]",
+          url: "https://www.equipmentfa.com/blogs/8069/the-cost-of-not-including-intrapreneurs-in-your-company",
           description: "Perspectives on fostering innovation by targeting employees with the character traits suited for intrapreneurship."
         }
       ]
@@ -153,7 +153,7 @@ export default function Press() {
           title: "Foster \"Intrapreneurs\" Through Leadership",
           date: "April 6, 2017",
           category: "Professional Development",
-          url: "https://www.equipmentfa.com/blogs/[blog-id]",
+          url: "https://www.equipmentfa.com/blogs/6635/foster-%E2%80%9Cintrapreneurs%E2%80%9D-through-leadership",
           description: "Inspiring employee creativity and innovation means giving workers the space to grow."
         }
       ]
@@ -165,7 +165,7 @@ export default function Press() {
           title: "The Art of Mentoring Millennials in the Workplace",
           date: "December 6, 2016",
           category: "Careers / Human Resources",
-          url: "https://www.equipmentfa.com/blogs/[blog-id]",
+          url: "https://www.equipmentfa.com/blogs/6227/the-art-of-mentoring-millennials-in-the-workplace",
           description: "Mentoring young guns takes an artist's touch, and given the right information, mentoring Millennials will come as naturally as training Baby Boomers."
         }
       ]
@@ -177,7 +177,7 @@ export default function Press() {
           title: "Strategic Revolution: The Power of Social Employee Advocacy",
           date: "September 17, 2014",
           category: "Miscellaneous Topic",
-          url: "https://www.equipmentfa.com/blogs/[blog-id]",
+          url: "https://www.equipmentfa.com/blogs/3484/strategic-revolution-the-power-of-social-employees",
           description: "The importance of social media and how it should play a part in your very own strategic revolution."
         }
       ]
