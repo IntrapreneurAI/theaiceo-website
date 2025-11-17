@@ -1,5 +1,7 @@
 import { ExternalLink, Linkedin, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import Navigation from "@/components/Navigation";
+import Footer from "@/components/Footer";
 
 export default function Team() {
   const teamMembers = [
@@ -70,7 +72,9 @@ export default function Team() {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
+    <>
+      <Navigation />
+      <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
       {/* Hero Section */}
       <section className="relative py-20 bg-gradient-to-br from-teal-600 via-teal-700 to-navy-900">
         <div className="absolute inset-0 bg-[url('/grid.svg')] opacity-10"></div>
@@ -189,6 +193,8 @@ export default function Team() {
           </div>
         </div>
       </section>
-    </div>
+      </div>
+      <Footer />
+    </>
   );
 }
