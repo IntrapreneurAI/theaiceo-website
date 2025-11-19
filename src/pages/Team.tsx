@@ -1,4 +1,4 @@
-import { ExternalLink, Linkedin, Mail } from "lucide-react";
+import { ExternalLink, Linkedin, Mail, Twitter } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
@@ -23,6 +23,7 @@ export default function Team() {
         "Now, through The AI CEO, RJ helps others do what he's done: scale with intention, act with clarity, and lead with conviction."
       ],
       linkedin: "https://www.linkedin.com/in/rjgrimshaw/",
+      twitter: "https://x.com/rjgcoach",
       email: "rj@theaiceo.ai"
     },
     {
@@ -127,6 +128,23 @@ export default function Team() {
                         >
                           <Linkedin className="h-4 w-4" />
                           Connect on LinkedIn
+                          <ExternalLink className="h-3 w-3 ml-auto" />
+                        </a>
+                      </Button>
+                    )}
+                    {member.twitter && (
+                      <Button
+                        asChild
+                        variant="outline"
+                        className="w-full justify-start gap-2"
+                      >
+                        <a
+                          href={member.twitter}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <Twitter className="h-4 w-4" />
+                          Follow on X
                           <ExternalLink className="h-3 w-3 ml-auto" />
                         </a>
                       </Button>
