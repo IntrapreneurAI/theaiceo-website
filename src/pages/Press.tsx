@@ -8,6 +8,13 @@ import { Link } from "wouter";
 export default function Press() {
   const pressReleases = [
     {
+      title: "The AI CEO Partners with D3 Hockey News to Elevate the Voice of Division III Hockey Nationwide",
+      date: "October 31, 2025",
+      publication: "USA Today",
+      url: "https://www.usatoday.com/press-release/story/17712/the-ai-ceo-partners-with-d3-hockey-news-to-elevate-the-voice-of-division-iii-hockey-nationwide/",
+      description: "AI strategy meets the spirit of competition as The AI CEO and D3 Hockey News unite to transform how data, intelligence, and human passion power Division III hockey. This collaboration represents a new model for how AI-powered organizations can enhance storytelling, fan engagement, and performance analytics across community-driven sports."
+    },
+    {
       title: "RJ Grimshaw Launches \"The AI EDGE\" A Practical Guide Where Leadership Meets Innovation",
       date: "October 12, 2025",
       publication: "USA Today",
