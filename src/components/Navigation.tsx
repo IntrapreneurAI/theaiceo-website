@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link, useLocation } from "wouter";
 import { Button } from "@/components/ui/button";
-import { Menu, X } from "lucide-react";
+import { Menu, X, Github } from "lucide-react";
 import { APP_LOGO } from "@/const";
 
 export default function Navigation() {
@@ -24,14 +24,25 @@ export default function Navigation() {
     <nav className="bg-background border-b border-border sticky top-0 z-50">
       <div className="container">
         <div className="flex items-center justify-between h-20">
-          {/* Logo */}
-          <Link href="/">
-            <img 
-              src={APP_LOGO} 
-              alt="The AI CEO" 
-              className="h-12 w-auto cursor-pointer"
-            />
-          </Link>
+          {/* Logo & GitHub */}
+          <div className="flex items-center gap-4">
+            <Link href="/">
+              <img 
+                src={APP_LOGO} 
+                alt="The AI CEO" 
+                className="h-12 w-auto cursor-pointer"
+              />
+            </Link>
+            <a
+              href="https://github.com/IntrapreneurAI"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-foreground/60 hover:text-foreground transition-colors"
+              aria-label="Visit our GitHub"
+            >
+              <Github className="h-6 w-6" />
+            </a>
+          </div>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center gap-8">
