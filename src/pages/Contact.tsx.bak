@@ -79,28 +79,16 @@ export default function Contact() {
             {/* Direct Contact Section */}
             <div className="bg-muted rounded-xl p-8 text-center">
               <Mail className="h-12 w-12 text-primary mx-auto mb-4" />
-              <h3 className="text-2xl mb-4">Prefer Direct Contact?</h3>
+              <h3 className="text-2xl mb-4">Prefer Email?</h3>
               <p className="text-muted-foreground mb-6 max-w-2xl mx-auto">
-                Reach out to us directly and we'll respond within 24 hours.
+                Send us a message directly and we'll respond within 24 hours.
               </p>
-              <div className="space-y-3">
-                <div>
-                  <a 
-                    href="tel:+17348213060" 
-                    className="text-primary hover:underline text-lg font-medium block"
-                  >
-                    (734) 821-3060
-                  </a>
-                </div>
-                <div>
-                  <a 
-                    href="mailto:team@theaiceo.ai" 
-                    className="text-primary hover:underline text-lg font-medium block"
-                  >
-                    team@theaiceo.ai
-                  </a>
-                </div>
-              </div>
+              <a 
+                href="mailto:team@theaiceo.ai" 
+                className="text-primary hover:underline text-lg font-medium"
+              >
+                team@theaiceo.ai
+              </a>
             </div>
 
             {/* What to Expect Section */}

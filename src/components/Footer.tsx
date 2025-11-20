@@ -16,10 +16,22 @@ export default function Footer() {
           {/* About */}
           <div className="col-span-1 md:col-span-2">
             <h4 className="text-lg font-bold mb-4">The AI CEO</h4>
-            <p className="text-primary-foreground/80 text-sm leading-relaxed">
+            <p className="text-primary-foreground/80 text-sm leading-relaxed mb-4">
               An embedded function for SMBs navigating AI adoption — bringing clarity, capability, and control. 
               Real adoption for real teams.
             </p>
+            <div className="space-y-2 text-sm">
+              <p className="text-primary-foreground/80">
+                <a href="tel:+17348213060" className="hover:text-primary-foreground transition-colors">
+                  (734) 821-3060
+                </a>
+              </p>
+              <p className="text-primary-foreground/80">
+                <a href="mailto:team@theaiceo.ai" className="hover:text-primary-foreground transition-colors">
+                  team@theaiceo.ai
+                </a>
+              </p>
+            </div>
           </div>
 
           {/* Quick Links */}
