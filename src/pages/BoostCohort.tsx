@@ -32,7 +32,7 @@ export default function BoostCohort() {
             </p>
             <p className="text-lg md:text-xl text-primary-foreground/80 mb-12 max-w-3xl mx-auto leading-relaxed">
               No cohorts will take place until after the first of the year. We appreciate all our professionals 
-              who trained in the cohort this year. New sessions will be announced soon—stay tuned for 2026!
+              who trained in the cohort this year. New sessions will be announced soon. Stay tuned for 2026!
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" variant="secondary" asChild>
@@ -104,7 +104,7 @@ export default function BoostCohort() {
                   <Target className="h-12 w-12 text-accent mx-auto mb-6" />
                   <h4 className="mb-4">Precision Matters</h4>
                   <p className="text-muted-foreground text-base leading-relaxed">
-                    Instantly get tailored, actionable insights—not generic answers
+                    Instantly get tailored, actionable insights, not generic answers
                   </p>
                 </CardContent>
               </Card>
@@ -244,7 +244,7 @@ export default function BoostCohort() {
 
             <div className="bg-gradient-to-br from-accent/10 to-accent/5 border-2 border-accent/20 rounded-2xl p-10 text-center">
               <p className="text-lg font-semibold text-foreground mb-4">
-                Spots are limited—secure your place today!
+                Spots are limited. Secure your place today!
               </p>
               <Button size="lg" asChild>
                 <Link href="/contact">

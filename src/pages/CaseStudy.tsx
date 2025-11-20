@@ -69,7 +69,7 @@ export default function CaseStudy() {
                 effectively within their organizations.
               </p>
               <p className="text-muted-foreground leading-relaxed mt-4">
-                Generic AI training programs didn't address the unique challenges of equipment finance—from 
+                Generic AI training programs didn't address the unique challenges of equipment finance, from 
                 credit analysis and portfolio management to regulatory compliance and customer relationship 
                 management. The industry needed education that spoke their language and addressed their 
                 specific use cases.
@@ -128,7 +128,7 @@ export default function CaseStudy() {
                     <div>
                       <h3 className="text-xl mb-2">Role-Based Training</h3>
                       <p className="text-muted-foreground">
-                        Tailored content for different roles within equipment finance organizations—
+                        Tailored content for different roles within equipment finance organizations, 
                         from credit analysts to operations managers to executives.
                       </p>
                     </div>
@@ -217,7 +217,7 @@ export default function CaseStudy() {
                   <CheckCircle2 className="h-6 w-6 text-primary flex-shrink-0 mt-1" />
                   <p className="text-muted-foreground">
                     <strong>Ongoing Guidance:</strong> The AI CEO approach ensures teams don't just understand 
-                    AI—they implement it effectively, ensuring adoption doesn't stall after the initial training.
+                    AI but implement it effectively, ensuring adoption doesn't stall after the initial training.
                   </p>
                 </div>
               </div>

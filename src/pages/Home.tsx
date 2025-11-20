@@ -53,7 +53,7 @@ export default function Home() {
               Real adoption for real teams.
             </p>
             <p className="text-lg md:text-xl text-foreground/70 mb-12 max-w-3xl mx-auto leading-relaxed">
-              The AI CEO is an embedded function for SMBs navigating AI adoption — 
+              The AI CEO is an embedded function for SMBs navigating AI adoption, 
               bringing clarity, capability, and control. It is not a tool or dashboard; 
               it is a transformation layer for real teams in real companies.
             </p>
@@ -372,7 +372,7 @@ export default function Home() {
                 The AI CEO is at the forefront of industry-specific AI education, bringing 
                 practical, actionable insights to organizations ready to embrace transformation. 
                 Our approach combines strategic thinking with hands-on implementation, ensuring 
-                teams don't just understand AI—they use it effectively.
+                teams don't just understand AI but use it effectively.
               </p>
               <Button asChild>
                 <Link href="/about">Learn About Our Philosophy</Link>

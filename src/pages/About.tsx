@@ -67,14 +67,14 @@ export default function About() {
                   <p className="text-muted-foreground leading-relaxed">
                     Consultants who parachute in, deliver a report, and leave create no lasting 
                     value. Real transformation happens when AI capability becomes embedded in your 
-                    organization's DNA—owned by your team, not rented from outsiders.
+                    organization's DNA, owned by your team and not rented from outsiders.
                   </p>
                 </div>
                 <div>
                   <h4 className="font-semibold mb-2 text-primary">4. Guardrails Enable Innovation</h4>
                   <p className="text-muted-foreground leading-relaxed">
                     Freedom without structure creates chaos. The right governance framework doesn't 
-                    slow teams down—it gives them confidence to move fast. Clear guidelines on data 
+                    slow teams down but gives them confidence to move fast. Clear guidelines on data 
                     security, quality standards, and compliance free teams to innovate safely.
                   </p>
                 </div>
@@ -146,8 +146,8 @@ export default function About() {
               <h2 className="mb-6">Who We Serve</h2>
               <p className="text-lg text-foreground/80 leading-relaxed mb-4">
                 The AI CEO is designed for small and mid-sized businesses that are serious about 
-                AI transformation but skeptical of hype. You're not looking for magic—you're 
-                looking for a practical path forward.
+                AI transformation but skeptical of hype. You're not looking for magic but 
+                a practical path forward.
               </p>
               <p className="text-lg text-foreground/80 leading-relaxed mb-4">
                 You recognize that AI is a strategic imperative, not a nice-to-have. You're 

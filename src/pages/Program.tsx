@@ -64,7 +64,7 @@ export default function Program() {
             </p>
             <p className="text-lg text-foreground/80 leading-relaxed">
               Our Role-Based Prompt Fluency Training solves this by delivering targeted, 
-              practical instruction that meets each role where they are—with examples, 
+              practical instruction that meets each role where they are, with examples, 
               templates, and workflows they can implement immediately.
             </p>
           </div>
@@ -296,7 +296,7 @@ export default function Program() {
                   </p>
                   <p>
                     <strong>Use Case Development:</strong> Build prompts for your actual 
-                    workflows—sales scripts, process docs, strategic analysis, etc.
+                    workflows such as sales scripts, process docs, strategic analysis, and more.
                   </p>
                   <p>
                     <strong>Deliverable:</strong> Role-specific prompt templates ready 

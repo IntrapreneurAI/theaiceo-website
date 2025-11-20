@@ -150,7 +150,7 @@ export default function FraudDetectionCaseStudy() {
 
             <div className="mt-12 text-center">
               <p className="text-sm text-muted-foreground">
-                <strong>ABLE is powered by The AI CEO</strong> — Learn more at{" "}
+                <strong>ABLE is powered by The AI CEO.</strong> Learn more at{" "}
                 <a href="https://www.theaiceo.ai" className="text-primary hover:underline" target="_blank" rel="noopener noreferrer">
                   www.theaiceo.ai
                 </a>
@@ -222,7 +222,7 @@ export default function FraudDetectionCaseStudy() {
               <CardContent className="p-10 lg:p-16">
                 <div className="text-6xl text-accent mb-6">"</div>
                 <p className="text-xl md:text-2xl leading-relaxed mb-8 italic">
-                  If you're considering AI for financial services, these folks understand both the technology and the banking regulatory environment—a rare combination that made all the difference for us.
+                  If you're considering AI for financial services, these folks understand both the technology and the banking regulatory environment. It's a rare combination that made all the difference for us.
                 </p>
                 <div className="border-t border-border pt-6">
                   <p className="font-semibold text-lg">James H.</p>
