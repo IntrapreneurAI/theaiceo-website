@@ -250,6 +250,163 @@ export default function Press() {
         </div>
       </section>
 
+
+      {/* Speaking Engagements & Industry Leadership Section */}
+      <section className="section-padding bg-gradient-to-br from-background to-muted">
+        <div className="container">
+          <div className="max-w-5xl mx-auto">
+            <div className="text-center mb-16">
+              <h2 className="mb-4">Speaking Engagements & Industry Leadership</h2>
+              <p className="text-xl text-muted-foreground">
+                Recognized thought leader in equipment finance, innovation, and AI-driven business transformation
+              </p>
+            </div>
+
+            {/* Equipment Finance Cares Board */}
+            <div className="mb-12 bg-card p-8 rounded-xl border-2 border-primary/20">
+              <h3 className="text-2xl mb-4 text-primary">Equipment Finance Cares - Board Member</h3>
+              <p className="text-muted-foreground mb-4">
+                <strong>2022 - Present</strong> | Founding Board Member
+              </p>
+              <p className="text-muted-foreground leading-relaxed">
+                Equipment Finance Cares is a nonprofit organization dedicated to advancing best practices in leadership, 
+                employee engagement, and innovation within the equipment finance industry. As a founding board member, 
+                RJ helps shape the organization's mission to elevate the human side of equipment finance.
+              </p>
+            </div>
+
+            {/* Featured Speaking Engagements */}
+            <div className="mb-12">
+              <h3 className="text-2xl mb-8">Featured Speaking Engagements</h3>
+              <div className="space-y-8">
+                {/* California Event 2024 */}
+                <div className="bg-card p-6 rounded-lg border">
+                  <div className="flex items-start gap-4">
+                    <div className="bg-primary/10 p-3 rounded-lg">
+                      <Calendar className="h-6 w-6 text-primary" />
+                    </div>
+                    <div className="flex-1">
+                      <h4 className="text-xl font-semibold mb-2">Equipment Finance Cares California Event</h4>
+                      <p className="text-sm text-muted-foreground mb-3">February 20, 2024</p>
+                      <p className="text-muted-foreground mb-3">
+                        <strong>Session:</strong> Intrapreneur Leadership Workshop - "Building a Culture of Innovation"
+                      </p>
+                      <p className="text-muted-foreground mb-4">
+                        Guided participants through the journey of becoming an innovative organization by fostering 
+                        intrapreneurship culture. Interactive workshop following panel discussions.
+                      </p>
+                      <a 
+                        href="https://equipmentfinancecares.com/in-the-news/f/equipment-finance-cares-2024-california-event-recap" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="text-primary hover:underline text-sm font-medium"
+                      >
+                        Read Event Recap →
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Chicago Event 2023 */}
+                <div className="bg-card p-6 rounded-lg border">
+                  <div className="flex items-start gap-4">
+                    <div className="bg-primary/10 p-3 rounded-lg">
+                      <Calendar className="h-6 w-6 text-primary" />
+                    </div>
+                    <div className="flex-1">
+                      <h4 className="text-xl font-semibold mb-2">Equipment Finance Cares Chicago Event</h4>
+                      <p className="text-sm text-muted-foreground mb-3">September 19, 2023</p>
+                      <p className="text-muted-foreground mb-3">
+                        <strong>Panel:</strong> "The Intersection of Diversity and Intrapreneurship"
+                      </p>
+                      <p className="text-muted-foreground mb-4">
+                        Moderated panel discussion featuring Burt Fealing (CEO, Mossy Oak Properties), Fred Crivlare 
+                        (CEO, Mossy Oak Properties of the Heartland), and Burt Fealing Jr. (Founder, Mossy PC). 
+                        Over 50 equipment finance professionals from 33 organizations attended.
+                      </p>
+                      <a 
+                        href="https://www.equipmentfa.com/articles/36951/equipment-finance-cares-recaps-chicago-event" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="text-primary hover:underline text-sm font-medium"
+                      >
+                        Read Event Recap →
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Ohio Event 2022 */}
+                <div className="bg-card p-6 rounded-lg border">
+                  <div className="flex items-start gap-4">
+                    <div className="bg-primary/10 p-3 rounded-lg">
+                      <Calendar className="h-6 w-6 text-primary" />
+                    </div>
+                    <div className="flex-1">
+                      <h4 className="text-xl font-semibold mb-2">Equipment Finance Cares Ohio Event</h4>
+                      <p className="text-sm text-muted-foreground mb-3">May 3, 2022</p>
+                      <p className="text-muted-foreground mb-3">
+                        <strong>Panel:</strong> "Developing a Culture of Intrapreneurship"
+                      </p>
+                      <p className="text-muted-foreground mb-4">
+                        Led discussion on fostering innovation and entrepreneurial thinking within established organizations. 
+                        Shared practical strategies for building cultures that encourage calculated risk-taking and creative problem-solving.
+                      </p>
+                      <a 
+                        href="https://www.elfaonline.org/news-and-publications/industry-news/read/2022/05/03/etac-equipment-finance-cares-ohio-event-recap" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="text-primary hover:underline text-sm font-medium"
+                      >
+                        Read Event Recap →
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Recognition & Leadership */}
+            <div className="grid md:grid-cols-2 gap-8">
+              <div className="bg-card p-6 rounded-lg border">
+                <h4 className="text-xl font-semibold mb-4">Industry Recognition</h4>
+                <div className="space-y-4">
+                  <div>
+                    <p className="font-semibold text-primary mb-2">"The Baker's Dozen CEOs"</p>
+                    <p className="text-sm text-muted-foreground">
+                      Recognized among the top CEOs in equipment finance, alongside leaders from De Lage Landen, 
+                      Key Equipment Finance, Cisco Systems Capital, and Wells Fargo.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-card p-6 rounded-lg border">
+                <h4 className="text-xl font-semibold mb-4">Industry Leadership</h4>
+                <ul className="space-y-3 text-sm text-muted-foreground">
+                  <li className="flex items-start gap-2">
+                    <span className="text-primary mt-1">•</span>
+                    <span>Past Executive Director, Equipment Leasing and Finance Association (ELFA)</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-primary mt-1">•</span>
+                    <span>ELFA Foundation Industry Future Council (participated twice)</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-primary mt-1">•</span>
+                    <span>Speaker, ELFA Executive Roundtable events</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-primary mt-1">•</span>
+                    <span>Committee volunteer, ELFA and NEFA</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Featured Articles */}
       <section className="section-padding bg-background">
         <div className="container">
