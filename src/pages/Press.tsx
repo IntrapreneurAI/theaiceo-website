@@ -4,8 +4,32 @@ import { ExternalLink, Calendar, Tag, Newspaper } from "lucide-react";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import { Link } from "wouter";
+import { useEffect } from "react";
 
 export default function Press() {
+  // Update page title and meta description for SEO
+  useEffect(() => {
+    document.title = "RJ Grimshaw - Equipment Finance AI Speaker & Intrapreneurship Thought Leader | Press";
+    
+    // Update meta description
+    let metaDescription = document.querySelector('meta[name="description"]');
+    if (!metaDescription) {
+      metaDescription = document.createElement('meta');
+      metaDescription.setAttribute('name', 'description');
+      document.head.appendChild(metaDescription);
+    }
+    metaDescription.setAttribute('content', 'RJ Grimshaw is a recognized equipment finance AI speaker, intrapreneurship thought leader, and innovation consultant. ELFA board member, Equipment Finance Cares founder, keynote speaker on AI adoption and building innovation culture.');
+    
+    // Update canonical URL
+    let canonical = document.querySelector('link[rel="canonical"]');
+    if (!canonical) {
+      canonical = document.createElement('link');
+      canonical.setAttribute('rel', 'canonical');
+      document.head.appendChild(canonical);
+    }
+    canonical.setAttribute('href', 'https://www.theaiceo.ai/press');
+  }, []);
+
   const pressReleases = [
     {
       title: "The AI CEO Partners with D3 Hockey News to Elevate the Voice of Division III Hockey Nationwide",
@@ -208,6 +232,9 @@ export default function Press() {
             <p className="text-lg text-primary-foreground/80 max-w-3xl mx-auto">
               RJ Grimshaw regularly contributes to Equipment Finance Advisor, NEFA Newsline, and Equipment Finance News, 
               sharing expertise on leadership, innovation, and strategic AI implementation.
+            </p>
+            <p className="text-lg text-primary-foreground/80 max-w-3xl mx-auto mt-6">
+              As an equipment finance AI speaker and intrapreneurship thought leader, RJ Grimshaw brings over 20 years of CEO experience to organizations navigating digital transformation. His keynote presentations and innovation consulting work help equipment finance companies build cultures of innovation, adopt AI strategically, and develop intrapreneurial leadership.
             </p>
           </div>
         </div>
